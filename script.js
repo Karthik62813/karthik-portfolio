@@ -64,14 +64,15 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .services-container, .skills-container , .portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
 // TYPED JS
-const typed = new Typed('.multiple-text', {
-  strings: ['UI UX Developer' , 'UI UX Designer'],
+const typed = new Typed('.multiple-text', { 
+  
+  strings: ['Developer' , 'Designer '],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,

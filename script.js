@@ -1,4 +1,4 @@
-// FOR CONTACT FORM INTERACTION
+ // FOR CONTACT FORM INTERACTION
 
 const inputs = document.querySelectorAll(".input");
 
@@ -64,7 +64,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .skills-container , .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .services-container, .skills-container , .portfolio-box, .contact form, .container', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 

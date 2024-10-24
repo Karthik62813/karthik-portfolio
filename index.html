@@ -116,8 +116,8 @@
               <div class="honeycomb-cell_title">FIGMA</div>
             </li>
             <li class="honeycomb-cell">
-                <img class="honeycomb-cell_img" src="img/work07.jpg">
-                <div class="honeycomb-cell_title">Share Design</div>
+                <img style="height: 8rem;" class="honeycomb-cell_img" src="./utils/photoshop.png">
+                <div style="z-index: 99;" class="honeycomb-cell_title">Share Design</div>
             </li>
             <li class="honeycomb-cell honeycomb_Hidden">
             </li>
@@ -210,6 +210,16 @@
                     <a href="#" class="card__button"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
            </article>
+
+           <article class="card__article">
+              <img src="./utils/poster1.psd" alt="image" class="card__img">
+
+              <div class="card__data">
+                    <h4 class="card__title">Web Design</h4>
+                    <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fuga?</p>
+                    <a href="./utils/BITEBUDDY-FIGMA.png" class="card__button"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+           </article>
         </div>
      </div>
 </section>
@@ -218,21 +228,22 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
   
-            <form action="index.html" autocomplete="off">
+            <form  action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+                <input type="hidden" name="access_key" value="e3065351-1552-4d8a-b85e-6007f46d4b00">
                 <div class="input-container">
-                    <input type="text" name="name" class="input" />
+                    <input type="text" name="name" class="input" required/>
                     <label for="">Full Name</label>
                     <span>Full Name</span>
                 </div>
                 
                 <div class="input-container">
-                    <input type="email" name="email" class="input" />
+                    <input type="email" name="email" class="input" required/>
                     <label for="">Email Address</label>
                     <span>Email Address</span>
                 </div>
 
                 <div class="input-container">
-                    <input type="tel" name="phone" class="input" />
+                    <input type="tel" name="phone" class="input" required/>
                     <label for="">Mobile Number</label>
                     <span>Mobile Number</span>
                 </div>
@@ -260,6 +271,7 @@
         </div>
     </footer>
 
+    
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
